@@ -459,7 +459,7 @@ Activity Logged
 |---|---|
 | **Frontend** | HTML5, CSS3, JavaScript, Bootstrap / Tailwind CSS |
 | **Backend** | Python, Flask |
-| **Database** | MongoDB |
+| **Database** | Supabase |
 | **AI** | Google Gemini API, Sentence Transformers, Vector Embeddings |
 | **Authentication** | Flask Session, Role-Based Access Control |
 | **Deployment** | GitHub, Render / Railway / Vercel |
@@ -495,31 +495,14 @@ Activity Logged
 
 ```
 OnlyTech/
-│
-├── app.py
-├── requirements.txt
 ├── README.md
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   ├── uploads/
-│   └── images/
-│
-├── templates/
-│   ├── login.html
-│   ├── employee_dashboard.html
-│   ├── admin_dashboard.html
-│   ├── upload.html
-│   ├── approvals.html
-│   ├── incidents.html
-│   └── ai_chat.html
-│
-├── models/
-│
-├── database/
-│
-└── utils/
+└── AI_Document_manage-main/
+    ├── .gitignore
+    ├── admin.html
+    ├── app.py
+    ├── employee.html
+    ├── requirements.txt
+    └── runtime.txt
 ```
 
 ---
@@ -539,7 +522,7 @@ python app.py
 Open in browser:
 
 ```
-[http://localhost:5000](https://ai-document-manage-fyjk.onrender.com)
+(https://ai-document-manage-fyjk.onrender.com)
 ```
 
 ---
